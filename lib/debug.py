@@ -1,6 +1,13 @@
-#!/usr/bin/env python3
-
 from dog import Dog
-import ipdb
+dog = Dog("Snoopy", "Beagle")
 
-ipdb.set_trace()
+
+print(dog.name)
+print(dog.breed)
+
+dog.name = "Charlie"
+dog.breed = "Pug"
+
+print(dog.name)  
+print(dog.breed)  
+
